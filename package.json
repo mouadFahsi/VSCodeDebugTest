@@ -1,0 +1,40 @@
+{
+  "name": "VScodeTestDebug",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.14",
+    "@types/react-native": "^0.57.50",
+    "@types/react-navigation": "^3.0.1",
+    "@types/react-redux": "^6.0.11",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/redux-logger": "^3.0.6",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.6.3",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "resolutions": {
+    "react-devtools-core": "3.4.3"
+  }
+}
